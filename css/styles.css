@@ -1,0 +1,144 @@
+:root {
+    --white: #FFFFFF;
+    --black: #212121;
+    --blue: #2196F3;
+    --grey: #757575;
+    --dark-grey: #2F303A;
+    --soft-grey: #FFFFFF99;
+    --white-grey: #F5F4FA;
+  }
+#active {
+    color: var(--blue)
+}
+.logo-link {
+    font-family: 'Raleway', sans-serif;
+    color:  var(--blue);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+.black-studio {
+    color: var(--black);
+}
+.white-studio {
+    color: var(--white);
+}
+.link {
+    font-family: 'Roboto', sans-serif;
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    text-decoration: none;
+}
+.address > .link {
+    color: var(--soft-grey);
+    font-weight: 400;
+    line-height: 1.71;
+}
+#phone {
+    color: var(--grey);
+}
+.button {
+    font-family: 'Roboto', sans-serif;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.88;
+    cursor: pointer;
+    background-color: var(--blue);
+}
+#portfolio-buttons {
+    font-family: 'Roboto', sans-serif;
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.66;
+    cursor: pointer;
+    background-color: var(--white-grey);
+}
+.link:focus {
+    color: var(--blue);
+}
+.link:hover {
+    color: var(--blue);
+}
+.button:focus {
+    color: var(--black);
+}
+.button:hover {
+    color: var(--black);
+}
+#portfolio-buttons:focus {
+    color: var(--white);
+    background-color: var(--blue);
+}
+#portfolio-buttons:hover {
+    color: var(--white);
+    background-color: var(--blue);
+}
+#phone:focus {
+    color: var(--blue);
+}
+#phone:hover {
+    color: var(--blue);
+}
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color:  var(--white);
+    background-color: var(--dark-grey);
+}
+.lorem {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+p {
+    color:  var(--grey);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.about {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}
+.member {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.role {
+    font-size: 16px;
+    line-height: 1.19;
+}
+.address {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--white);
+    font-style: normal;
+    background-color: var(--dark-grey);
+}
+.footer {
+    background-color: var(--dark-grey);
+}
+h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+.description {
+    font-size: 16px;
+    line-height: 1.88;
+}
+.body {
+    color: var(--black);
+    font-family: 'Roboto', 'Raleway' ,'Helvetica Neue', 'Verdana', 'Tahoma', sans-serif;
+}
