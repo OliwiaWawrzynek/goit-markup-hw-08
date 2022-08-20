@@ -7,7 +7,7 @@
     --soft-grey: #FFFFFF99;
     --white-grey: #F5F4FA;
   }
-#active {
+.active-link {
     color: var(--blue)
 }
 .logo-link {
@@ -37,7 +37,7 @@
     font-weight: 400;
     line-height: 1.71;
 }
-#phone {
+.phone {
     color: var(--grey);
 }
 .button {
@@ -49,7 +49,7 @@
     cursor: pointer;
     background-color: var(--blue);
 }
-.body > .options > .button {
+.buttons {
     font-family: 'Roboto', sans-serif;
     color: var(--black);
     font-size: 16px;
@@ -70,18 +70,18 @@
 .button:hover {
     color: var(--black);
 }
-.options > .button:focus {
+.buttons:focus {
     color: var(--white);
     background-color: var(--blue);
 }
-.options > .button:hover {
+.buttons:hover {
     color: var(--white);
     background-color: var(--blue);
 }
-#phone:focus {
+.phone:focus {
     color: var(--blue);
 }
-#phone:hover {
+.phone:hover {
     color: var(--blue);
 }
 .title {
