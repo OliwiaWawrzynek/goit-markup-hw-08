@@ -13,10 +13,10 @@
     width: 1200px;
     margin: 0 auto;
 }
-.background1 {
+.background-grey {
     background-color: var(--dark-grey);
 }
-.background2 {
+.background-white-grey {
     background-color: var(--white-grey);
 }
 .body1 {
@@ -47,17 +47,17 @@
 .box-header{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 24px 0;
 }
 .contact {
     display: flex;
     gap: 50px;
-    margin-left: 371px;
 }
 .navigation {
     display: flex;
     gap: 46px;
-    margin-left: 93px;
+    margin-right: 371px;
 }
 .active-link {
     color: var(--blue)
@@ -163,14 +163,14 @@
     border-right: 1px solid var(--dark-white);
     margin: 0;
 }
-.description1 {
+.description-lorem-ipsum {
     font-size: 14px;
     line-height: 1.71;
     color: var(--grey);
     margin: 0;
     letter-spacing: 0.03em;
 }
-.description2 {
+.description-gallery {
     font-size: 16px;
     line-height: 1.88;
     color: var(--grey);
