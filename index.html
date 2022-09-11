@@ -73,7 +73,7 @@
                 <div class="background-body1">
                     <div class="container body1">
                         <h1 class="title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-                        <button type="button" class="button">Zamów usługe</button>
+                        <button type="button" class="button" data-modal-open>Zamów usługe</button>
                     </div>
                 </div>    
             </section>
@@ -128,23 +128,32 @@
             <section class="section container">
                 <h2 class="heading1">Czym się zajmujemy</h2>
                 <ul class="heading1-box">
-                    <li>    
+                    <li class="heading1-box-1">   
                         <img src="images/image.0.1.jpg"
                         alt="Monitor i klawiatura. Programista pisze na klawiaturze."
                         width="370"
                         height="294"/>
+                        <div class="heading1-overlay">
+                            <p>APLIKACJE KOMPUTEROWE</p>
+                        </div> 
                     </li>
-                    <li>
+                    <li class="heading1-box-2">
                         <img src="images/image.0.2.jpg"
                         alt="Smartfon i laptop. Kobieta korzysta jednocześnie ze smartfonu i komputera."
                         width="370"
                         height="294"/>
+                        <div class="heading1-overlay">
+                            <p>APLIKACJE MOBILNE</p>
+                        </div>
                     </li>
-                    <li>
+                    <li class="heading1-box-3">
                         <img src="images/image.0.3.jpg"
                         alt="Tablet. Na wyświetlaczu jest paleta barw w postaci heksagonów."
                         width="370"
                         height="294"/>
+                        <div class="heading1-overlay">
+                            <p>ROZWIĄZANIA GRAFICZNE</p>
+                        </div>
                     </li>
                     </ul>            
             </section>
@@ -492,5 +501,17 @@
             </div>
             </div>
         </footer>
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button type="button" class="close-btn" data-modal-close>
+                    <svg class="close-btn-x">
+                        <use
+                            href="./images/icons.svg#icon-close">
+                        </use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <script src="../js/modal.js"></script>
     </body>
 </html>
