@@ -499,17 +499,84 @@
                     </a>
                     </div>
             </div>
+            <div class="newsletter">
+                <h4 class="heading4">ZAPISZ SIĘ DO NEWSLETTERA</h4>
+                <div class="newsletter-email">
+                    <input class="email-input hidden" type="email" name="email" placeholder="E-mail" />
+                    <button type="button" class="button send-button">
+                        Zapisz się 
+                        <svg class="icon-send">
+                            <use
+                                href="./images/icons.svg#icon-send">
+                            </use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
             </div>
         </footer>
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
-                <button type="button" class="close-btn" data-modal-close>
+                <button type="submit" class="close-btn" data-modal-close>
                     <svg class="close-btn-x">
                         <use
                             href="./images/icons.svg#icon-close">
                         </use>
                     </svg>
                 </button>
+                <h6>Zostaw swoje dane w formularzu poniżej</h6>
+                <form class="modal-form">
+
+                    <label for="username">Imię
+                        <div class="input-box-1">
+                            <svg class="icon-input icon"
+                            width="18px"
+                            height="18px">
+                                <use
+                                    href="./images/icons.svg#icon-person">
+                                </use>
+                            </svg>
+                        <input class="modal-input" type="text" name="username" id="username"/>
+                        </div>
+                    </label>
+                  
+                    <label for="user_phone">Telefon
+                        <div class="input-box-2">
+                            <svg class="icon-input icon"
+                            width="18px"
+                            height="18px">
+                                <use
+                                    href="./images/icons.svg#icon-phone-black">
+                                </use>
+                            </svg>   
+                        <input class="modal-input" type="phone" name="phone" id="user_phone" />
+                        </div> 
+                    </label>
+
+                    <label for="user_email">Email
+                        <div class="input-box-3">
+                            <svg class="icon-input icon" 
+                            width="18px"
+                            height="18px">
+                                <use
+                                    href="./images/icons.svg#icon-email-black">
+                                </use>
+                            </svg>  
+                        <input class="modal-input" type="email" name="email" id="user_email" />
+                        </div>
+                    </label>
+
+                    <label> Komentarz
+                        <textarea class="modal-input feedback-box" name="feedback" rows="5" placeholder="Wprowadź tekst"></textarea>
+                    </label>
+                    <div class="checkbox">
+                    <label class="agreement">
+                        <input type="checkbox" name="agreement" value="agreement"/>
+                        Oświadczam iż akceptuję <a class="agreement-link" href="">Regulamin</a> i <a class="agreement-link" href="">Politykę Prywatności.</a>
+                      </label>
+                    <button class="button modal-button" type="submit">Wyślij</button>
+                    </div>
+                </form>
             </div>
         </div>
         <script src="./js/modal.js"></script>
