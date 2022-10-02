@@ -609,7 +609,8 @@
   pointer-events: none;
 }
 
-.box-header__logo .footer-info__logo {
+.box-header__logo,
+.footer-info__logo {
   font-family: "Raleway", sans-serif;
   color: var(--blue);
   font-weight: 700;
