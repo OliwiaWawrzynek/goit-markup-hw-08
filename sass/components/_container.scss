@@ -1,0 +1,35 @@
+.section-main__container {
+    max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 200px 0;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.container--section1 {
+    padding: 94px 0 0 0;
+}
+.container--section2,
+.container--section4 {
+    padding: 94px 0;
+}
+.container--section3 {
+    height: 372px;
+    padding: 94px 0 0 0;
+}
+.container--footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.menu-box {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 50px;
+}
