@@ -18,10 +18,10 @@
         </title>
     </head>
     <body>
-        <header class="page-header">
-            <div class="container box-header"> 
-            <a href="./index.html" class="box-header__logo">
-                Web<span class="box-header__logo--color-black">Studio</span>
+        <header class="header">
+            <div class="header__container"> 
+            <a href="./index.html" class="header__logo">
+                Web<span class="header__logo--color-black">Studio</span>
             </a>
                 <nav>
                     <ul class="navigation">
@@ -45,8 +45,8 @@
                     </ul>
                 </nav>
                 <div class="contacts">
-                    <a class="contacts__link contacts__element contacts--color" href="mailto:info@devstudio.com">
-                        <svg class="contacts__link--icon-mail">
+                    <a class="contacts__element" href="mailto:info@devstudio.com">
+                        <svg class="contacts__element--icon-mail">
                             <use
                                 href="./images/icons.svg#icon-mail">
                             </use>
@@ -55,8 +55,8 @@
                             info@devstudio.com
                         </span> 
                     </a>
-                    <a class="contacts__link contacts__element contacts--color" href="tel:+48111111111">    
-                        <svg class="contacts__link--icon-phone">
+                    <a class="contacts__element" href="tel:+48111111111">    
+                        <svg class="contacts__element--icon-phone">
                             <use
                                 href="./images/icons.svg#icon-phone">
                             </use>
@@ -69,15 +69,15 @@
             </div>
         </header>
         <main class="body">
-            <section class="section-main">
-                <div class="section-main--background">
-                    <div class="container section-main__container">
-                        <h1 class="section-main__title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-                        <button type="button" class="section-main__button" data-modal-open>Zamów usługę</button>
+            <section class="body__section-main">
+                <div class="body__section-main--background">
+                    <div class="body__section-main--size">
+                        <h1 class="body__section-main--title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+                        <button type="button" class="body__section-main--button" data-modal-open>Zamów usługę</button>
                     </div>
                 </div>    
             </section>
-            <section class="container container--section1">
+            <section class="section1">
                 <ul class="cards-asset">
                     <li>
                         <svg class="cards-asset__icon">
@@ -125,7 +125,7 @@
                     </li>
                 </ul>           
             </section>
-            <section class="container container--section1">
+            <section class="section1">
                 <h2 class="section1__title">Czym się zajmujemy</h2>
                 <ul class="section1__box">
                     <li class="section1__box1">   
@@ -157,8 +157,8 @@
                     </li>
                     </ul>            
             </section>
-            <section class="section-team--background">
-                <div class="container container--section2">
+            <section class="section2">
+                <div class="section2__size">
                 <h2 class="section2__title">Nasz zespół</h2>
                 <ul class="section2__box">
                     <li class="section2__box--style">    
@@ -381,12 +381,12 @@
                 </div>    
             </section>
             <section>
-                <div class="container container--section3">
-                    <h2 class="section3">Nasi klienci</h2>
-                <ul class="section3-clients">
+                <div class="section3">
+                    <h2 class="section3--title">Nasi klienci</h2>
+                <ul class="clients">
                     <li>
-                        <a href="" class="section3-clients__box">
-                        <svg class="section3-clients__box--icon">
+                        <a href="" class="clients__box">
+                        <svg class="clients__box--icon">
                             <use
                                 href="./images/icons.svg#icon-Client-1">
                             </use>
@@ -394,8 +394,8 @@
                         </a>
                     </li>
                     <li>
-                        <a href="" class="section3-clients__box">
-                        <svg class="section3-clients__box--icon">
+                        <a href="" class="clients__box">
+                        <svg class="clients__box--icon">
                             <use
                                 href="./images/icons.svg#icon-Client-2">
                             </use>
@@ -403,8 +403,8 @@
                         </a>
                     </li>
                     <li>
-                        <a href="" class="section3-clients__box">
-                        <svg class="section3-clients__box--icon">
+                        <a href="" class="clients__box">
+                        <svg class="clients__box--icon">
                             <use
                                 href="./images/icons.svg#icon-Client-3">
                             </use>
@@ -412,8 +412,8 @@
                         </a>
                     </li>
                     <li>
-                        <a href="" class="section3-clients__box">
-                        <svg class="section3-clients__box--icon">
+                        <a href="" class="clients__box">
+                        <svg class="clients__box--icon">
                             <use
                                 href="./images/icons.svg#icon-Client-4">
                             </use>
@@ -421,8 +421,8 @@
                         </a>
                     </li>
                     <li>
-                        <a href="" class="section3-clients__box">
-                        <svg class="section3-clients__box--icon">
+                        <a href="" class="clients__box">
+                        <svg class="clients__box--icon">
                             <use
                                 href="./images/icons.svg#icon-Client-5">
                             </use>
@@ -430,8 +430,8 @@
                         </a>
                     </li>
                     <li>
-                        <a href="" class="section3-clients__box">
-                        <svg class="section3-clients__box--icon">
+                        <a href="" class="clients__box">
+                        <svg class="clients__box--icon">
                             <use
                                 href="./images/icons.svg#icon-Client-6">
                             </use>
@@ -442,18 +442,18 @@
                 </div>
             </section>
         </main>
-        <footer class="footer--background">
-            <div class="container container--footer">
-            <div class="footer-info">
-                <a href="./index.html" class="footer-info__logo">
-                    Web<span class="footer-info__logo--color-white">Studio</span>
+        <footer class="footer">
+            <div class="footer__container">
+            <div class="footer__size">
+                <a href="./index.html" class="footer__logo">
+                    Web<span class="footer__logo--color-white">Studio</span>
                 </a>
-                <address class="footer-info__address">
+                <address class="footer__address">
                     m. Warszawa, Aleje Jerozolimskie 21
-                <a class="footer-info__address--link" href="mailto:info@example.com">
+                <a class="footer__address--link" href="mailto:info@example.com">
                     info@example.com
                 </a>
-                <a class="footer-info__address--link" href="tel:+48111111111">
+                <a class="footer__address--link" href="tel:+48111111111">
                     +48 111 111 111
                 </a>
                 </address>
@@ -461,36 +461,36 @@
             <div class="join-us">
                     <h4 class="join-us__title">DOŁĄCZ DO NAS</h4>
                     <div class="social-media">
-                        <a class="social-media__box social-media__box--footer" href="instagram.com">
-                    <div class="social-media__box social-media__box--footer">
-                    <svg class="social-media__box--icon social-media__box--icon-white">
+                        <a class="social-media__box--footer" href="instagram.com">
+                    <div class="social-media__box--footer">
+                    <svg class="social-media__box--icon-white">
                         <use
                             href="./images/icons.svg#icon-instagram">
                         </use>
                     </svg>
                     </div>
                         </a>
-                        <a class="social-media__box social-media__box--footer" href="twitter.com">
-                    <div class="social-media__box social-media__box--footer">
-                    <svg class="social-media__box--icon social-media__box--icon-white">
+                        <a class="social-media__box--footer" href="twitter.com">
+                    <div class="social-media__box--footer">
+                    <svg class="social-media__box--icon-white">
                         <use
                             href="./images/icons.svg#icon-twitter">
                         </use>
                     </svg>
                     </div>
                         </a>
-                        <a class="social-media__box social-media__box--footer" href="facebook.com">
-                    <div class="social-media__box social-media__box--footer">
-                    <svg class="social-media__box--icon social-media__box--icon-white">
+                        <a class="social-media__box--footer" href="facebook.com">
+                    <div class="social-media__box--footer">
+                    <svg class="social-media__box--icon-white">
                         <use
                             href="./images/icons.svg#icon-facebook">
                         </use>
                     </svg>
                     </div>
                         </a>
-                        <a class="social-media__box social-media__box--footer" href="linkedin.com">
-                    <div class="social-media__box social-media__box--footer">
-                    <svg class="social-media__box--icon social-media__box--icon-white">
+                        <a class="social-media__box--footer" href="linkedin.com">
+                    <div class="social-media__box--footer">
+                    <svg class="social-media__box--icon-white">
                         <use
                             href="./images/icons.svg#icon-linkedin">
                         </use>
@@ -503,7 +503,7 @@
                 <h4 class="newsletter__title">ZAPISZ SIĘ DO NEWSLETTERA</h4>
                 <div class="newsletter__email">
                     <input class="newsletter__email--input" type="email" name="email" placeholder="E-mail" />
-                    <button type="button" class="button newsletter__email--button">
+                    <button type="button" class="newsletter__email--button">
                         Zapisz się 
                         <svg class="newsletter__email--icon-send">
                             <use
@@ -525,7 +525,7 @@
                     </svg>
                 </button>
                 <h6 class="modal__title">Zostaw swoje dane w formularzu poniżej</h6>
-                <form class="modal-form">
+                <form class="modal__form">
                     <label for="username">Imię
                         <div class="input-box1">
                             <svg class="input-box1__icon"
@@ -566,18 +566,18 @@
                         <textarea class="modal-input feedback-box" name="feedback" rows="5" placeholder="Wprowadź tekst"></textarea>
                     </label>
                     <div class="checkbox">
-                    <label for="agreement-box" class="agreement">
-                        <div class="chceckbox-place">
-                        <input type="checkbox" id="agreement-box" class="chceckbox-box" name="agreement" value="agreement"/>
-                        <svg class="checkbox-icon">
+                    <label for="agreement-box" class="checkbox__agreement">
+                        <div class="checkbox__place">
+                        <input type="checkbox" id="agreement-box" class="checkbox__box" name="agreement" value="agreement"/>
+                        <svg class="checkbox__icon">
                             <use
                                 href="./images/icons.svg#icon-icon-check">
                             </use>
                         </svg>
                         </div>
-                        Oświadczam iż akceptuję <a class="agreement-link" href="">Regulamin</a> i <a class="agreement-link" href="">Politykę Prywatności.</a>
+                        Oświadczam iż akceptuję <a class="agreement__link" href="">Regulamin</a> i <a class="agreement__link" href="">Politykę Prywatności.</a>
                       </label>
-                    <button class="button modal-button" type="submit">Wyślij</button>
+                    <button class="modal-button" type="submit">Wyślij</button>
                     </div>
                 </form>
             </div>

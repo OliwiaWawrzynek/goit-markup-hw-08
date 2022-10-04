@@ -1,7 +1,5 @@
-.contacts__link,
 .navigation__link,
-.footer-info__address--link,
-.gallery__picture {
+.footer__address--link {
     font-family: 'Roboto', sans-serif;
     color: var(--black);
     font-size: 14px;
@@ -15,28 +13,28 @@
 .navigation__link:hover,
 .link:focus, 
 .link:hover,
-.footer-info__address--link:focus, 
-.footer-info__address--link:hover,
+.footer__address--link:focus, 
+.footer__address--link:hover,
 .contacts__element:focus,
 .contacts__element:hover {
     color: var(--blue);
 }
 .link:hover .icon,
 .link:focus .icon,
-.contacts__link:hover .contacts__link--icon-mail,
-.contacts__link:focus .contacts__link--icon-mail,
-.contacts__link:hover .contacts__link--icon-phone,
-.contacts__link:focus .contacts__link--icon-phone,
+.contacts__element:hover .contacts__element--icon-mail,
+.contacts__element:focus .contacts__element--icon-mail,
+.contacts__element:hover .contacts__element--icon-phone,
+.contacts__element:focus .contacts__element--icon-phone,
 .button:focus .newsletter__email--icon-send,
 .button:hover .newsletter__email--icon-send {
     fill: var(--blue);
 }
-.section3-clients__box:focus,
-.section3-clients__box:hover,
+.clients__box:focus,
+.clients__box:hover,
 .modal-input:hover,
 .modal-input:focus,
-.section3-clients__box--icon:hover,
-.section3-clients__box--icon:focus,
+.clients__box--icon:hover,
+.clients__box--icon:focus,
 .input-box1:hover .modal-input,
 .input-box1:focus .modal-input,
 .input-box2:hover .modal-input,
@@ -45,7 +43,7 @@
 .input-box3:focus .modal-input {
     border-color: var(--blue);
 }
-.section3-clients__box:hover .section3-clients__box--icon,
-.section3-clients__box:focus .section3-clients__box--icon {
+.clients__box:hover .clients__box--icon,
+.clients__box:focus .clients__box--icon {
     fill: var(--blue);
 }

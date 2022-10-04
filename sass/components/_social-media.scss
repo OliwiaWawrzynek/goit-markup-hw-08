@@ -16,10 +16,6 @@
     fill: var(--white);
     }
 
-    &__box--footer {
-    background-color: var(--icon-footer-grey);
-    }
-
     &__box {
     display: flex;
     justify-content: center;
@@ -38,6 +34,11 @@
     }
 
     &__box--icon-white {
+    @extend .social-media__box--icon;
     fill: var(--white);
     }
 }
+    .social-media__box--footer {
+    @extend .social-media__box; 
+    background-color: var(--icon-footer-grey);
+    }

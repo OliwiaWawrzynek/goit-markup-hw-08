@@ -1,3 +1,6 @@
+.footer {
+    background-color: var(--dark-grey);
+}
 .join-us {
     display: flex;
     align-items: flex-start;
@@ -64,22 +67,15 @@
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
     }
-
-    &__email--button {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 24px;
-    }
 }
-.footer-info {
+    .footer__size {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     gap: 20px;
     padding: 55.5px 0;
-
-    &__address {
+    }
+    .footer__address {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -91,11 +87,9 @@
     align-items: flex-start;
     gap: 9px;
     }
-
-    &__address--link {
+    .footer__address--link {
     display: flex;
     color: var(--soft-grey);
     font-weight: 400;
     line-height: 1.71;
     }
-}

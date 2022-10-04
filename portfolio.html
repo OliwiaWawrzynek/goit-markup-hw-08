@@ -18,10 +18,10 @@
         </title>
     </head>
     <body>
-        <header class="page-header">
-            <div class="container box-header"> 
-            <a href="./index.html" class="box-header__logo">
-                Web<span class="box-header__logo--color-black">Studio</span>
+        <header class="header">
+            <div class="header__container"> 
+            <a href="./index.html" class="header__logo">
+                Web<span class="header__logo--color-black">Studio</span>
             </a>
                 <nav>
                     <ul class="navigation">
@@ -45,8 +45,8 @@
                     </ul>
                 </nav>
                 <div class="contacts">
-                    <a class="contacts__link contacts__element contacts--color" href="mailto:info@devstudio.com">
-                        <svg class="contacts__link--icon-mail">
+                    <a class="contacts__element" href="mailto:info@devstudio.com">
+                        <svg class="contacts__element--icon-mail">
                             <use
                                 href="./images/icons.svg#icon-mail">
                             </use>
@@ -54,9 +54,9 @@
                         <span>
                             info@devstudio.com
                         </span> 
-                        </a>
-                        <a class="contacts__link contacts__element contacts--color" href="tel:+48111111111">    
-                        <svg class="contacts__link--icon-mail">
+                    </a>
+                    <a class="contacts__element" href="tel:+48111111111">    
+                        <svg class="contacts__element--icon-phone">
                             <use
                                 href="./images/icons.svg#icon-phone">
                             </use>
@@ -69,7 +69,7 @@
             </div>
         </header>
         <main class="body">
-            <section class="container container--section4">
+            <section class="section4">
                 <div class="menu-box">
                     <button type="button" class="menu-box__button">
                         Wszystkie
@@ -87,10 +87,10 @@
                         Marketing
                     </button>
                 </div>
-                <div class="container">
+                <div>
                 <ul class="gallery">
                     <li>
-                        <a class="picture gallery__picture" href="">
+                        <a class="gallery__picture" href="">
                         <figure class="gallery__box">
                             <div class="gallery__box">
                             <img src="images/image.2.1.jpg"
@@ -114,7 +114,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="picture gallery__picture" href="">
+                        <a class="gallery__picture" href="">
                         <figure class="gallery__box">
                             <div class="gallery__box">
                             <img src="images/image.2.2.jpg"
@@ -138,7 +138,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="picture gallery__picture" href="">
+                        <a class="gallery__picture" href="">
                         <figure class="gallery__box">
                             <div class="gallery__box">
                             <img src="images/image.2.3.jpg"
@@ -162,7 +162,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="picture gallery__picture" href="">
+                        <a class="gallery__picture" href="">
                         <figure class="gallery__box">
                             <div class="gallery__box">
                             <img src="images/image.2.4.jpg"
@@ -186,7 +186,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="picture gallery__picture" href="">
+                        <a class="gallery__picture" href="">
                         <figure class="gallery__box">
                             <div class="gallery__box">
                             <img src="images/image.2.5.jpg"
@@ -210,7 +210,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="picture gallery__picture" href="">
+                        <a class="gallery__picture" href="">
                         <figure class="gallery__box">
                             <div class="gallery__box">
                             <img src="images/image.2.6.jpg"
@@ -234,7 +234,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="picture gallery__picture" href="">
+                        <a class="gallery__picture" href="">
                         <figure class="gallery__box">
                             <div class="gallery__box">
                             <img src="images/image.2.7.jpg"
@@ -258,7 +258,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="picture gallery__picture" href="">
+                        <a class="gallery__picture" href="">
                         <figure class="gallery__box">
                             <div class="gallery__box">
                             <img src="images/image.2.8.jpg"
@@ -282,7 +282,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="picture gallery__picture" href="">
+                        <a class="gallery__picture" href="">
                         <figure class="gallery__box">
                             <div class="gallery__box">
                             <img src="images/image.2.9.jpg"
@@ -309,18 +309,18 @@
                 </div>
             </section>
         </main>
-        <footer class="footer--background">
-            <div class="container container--footer">
-            <div class="footer-info">
-                <a href="./index.html" class="footer-info__logo">
-                    Web<span class="footer-info__logo--color-white">Studio</span>
+        <footer class="footer">
+            <div class="footer__container">
+            <div class="footer__size">
+                <a href="./index.html" class="footer__logo">
+                    Web<span class="footer__logo--color-white">Studio</span>
                 </a>
-                <address class="footer-info__address">
+                <address class="footer__address">
                     m. Warszawa, Aleje Jerozolimskie 21
-                <a class="footer-info__address--link" href="mailto:info@example.com">
+                <a class="footer__address--link" href="mailto:info@example.com">
                     info@example.com
                 </a>
-                <a class="footer-info__address--link" href="tel:+48111111111">
+                <a class="footer__address--link" href="tel:+48111111111">
                     +48 111 111 111
                 </a>
                 </address>
@@ -328,36 +328,36 @@
             <div class="join-us">
                     <h4 class="join-us__title">DOŁĄCZ DO NAS</h4>
                     <div class="social-media">
-                        <a class="social-media__box social-media__box--footer" href="instagram.com">
-                    <div class="social-media__box social-media__box--footer">
-                    <svg class="social-media__box--icon social-media__box--icon-white">
+                        <a class="social-media__box--footer" href="instagram.com">
+                    <div class="social-media__box--footer">
+                    <svg class="social-media__box--icon-white">
                         <use
                             href="./images/icons.svg#icon-instagram">
                         </use>
                     </svg>
                     </div>
                         </a>
-                        <a class="social-media__box social-media__box--footer" href="twitter.com">
-                    <div class="social-media__box social-media__box--footer">
-                    <svg class="social-media__box--icon social-media__box--icon-white">
+                        <a class="social-media__box--footer" href="twitter.com">
+                    <div class="social-media__box--footer">
+                    <svg class="social-media__box--icon-white">
                         <use
                             href="./images/icons.svg#icon-twitter">
                         </use>
                     </svg>
                     </div>
                         </a>
-                        <a class="social-media__box social-media__box--footer" href="facebook.com">
-                    <div class="social-media__box social-media__box--footer">
-                    <svg class="social-media__box--icon social-media__box--icon-white">
+                        <a class="social-media__box--footer" href="facebook.com">
+                    <div class="social-media__box--footer">
+                    <svg class="social-media__box--icon-white">
                         <use
                             href="./images/icons.svg#icon-facebook">
                         </use>
                     </svg>
                     </div>
                         </a>
-                        <a class="social-media__box social-media__box--footer" href="linkedin.com">
-                    <div class="social-media__box social-media__box--footer">
-                    <svg class="social-media__box--icon social-media__box--icon-white">
+                        <a class="social-media__box--footer" href="linkedin.com">
+                    <div class="social-media__box--footer">
+                    <svg class="social-media__box--icon-white">
                         <use
                             href="./images/icons.svg#icon-linkedin">
                         </use>
@@ -370,7 +370,7 @@
                 <h4 class="newsletter__title">ZAPISZ SIĘ DO NEWSLETTERA</h4>
                 <div class="newsletter__email">
                     <input class="newsletter__email--input" type="email" name="email" placeholder="E-mail" />
-                    <button type="button" class="button newsletter__email--button">
+                    <button type="button" class="newsletter__email--button">
                         Zapisz się 
                         <svg class="newsletter__email--icon-send">
                             <use

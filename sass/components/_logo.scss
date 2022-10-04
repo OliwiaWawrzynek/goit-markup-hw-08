@@ -1,4 +1,4 @@
-.box-header__logo {
+.header__logo {
     font-family: 'Raleway', sans-serif;
     color: var(--blue);
     font-weight: 700;
@@ -7,7 +7,7 @@
     text-decoration: none;
     margin: 0;
 }
-.footer-info__logo {
+.footer__logo {
     font-family: 'Raleway', sans-serif;
     color: var(--blue);
     font-weight: 700;
@@ -16,9 +16,9 @@
     text-decoration: none;
     margin: 0;
 }
-.box-header__logo--color-black {
+.header__logo--color-black {
     color: var(--black);
 }
-.footer-info__logo--color-white {
+.footer__logo--color-white {
     color: var(--white);
 }

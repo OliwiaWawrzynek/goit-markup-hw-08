@@ -7,8 +7,8 @@
     fill: var(--blue);
     border-color: var(--blue);
 }
-.agreement-link:hover,
-.agreement-link:focus {
+.agreement__link:hover,
+.agreement__link:focus {
     color: var(--dark-grey);
 }
 .backdrop {
@@ -32,7 +32,7 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 }
-.modal-form {
+.modal__form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,7 +107,7 @@
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     }
 }
-.agreement {
+.checkbox__agreement {
     display: flex;
     position: relative;
     align-items: center;
@@ -118,16 +118,12 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-.agreement-link {
+.agreement__link {
     display: flex;
     color: var(--blue);
     text-decoration: underline;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal-button {
-    width: 200px;
-    height: 50px;
 }
 .input-box1 {
     display: flex;
@@ -165,14 +161,14 @@
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
     }
 }
-.chceckbox-box {
+.checkbox__box {
     appearance: none;
     -webkit-apperance: none;
 }
-.chceckbox-place {
+.checkbox__place {
     position: absolute;
 }
-.checkbox-icon {
+.checkbox__icon {
     width: 16px;
     height: 15px;
     position: absolute;
@@ -181,7 +177,7 @@
     display: flex;
     opacity: 0;
 
-    .chceckbox-place:focus & {
+    .checkbox__place:focus & {
         transform: translateY(0px);
         transition-property: transform;
         transition-duration: 250ms;
@@ -198,7 +194,7 @@
         opacity: 1;
     }
 }
-.agreement::before {
+.checkbox__agreement::before {
     width: 16px;
     height: 15px;
     border: 2px solid var(--black);
