@@ -1,9 +1,9 @@
-.input-box1:hover .input-box1__icon,
-.input-box1:focus .input-box1__icon,
-.input-box2:hover .input-box2__icon,
-.input-box2:focus .input-box2__icon,
-.input-box3:hover .input-box3__icon,
-.input-box3:focus .input-box3__icon {
+.input-name:hover .input-name__icon,
+.input-name:focus .input-name__icon,
+.input-phone:hover .input-phone__icon,
+.input-phone:focus .input-phone__icon,
+.input-email:hover .input-email__icon,
+.input-email:focus .input-email__icon {
     fill: var(--blue);
     border-color: var(--blue);
 }
@@ -70,6 +70,7 @@
     padding-left: 42px;
 }
 .feedback-box {
+    @extend .modal-input;
     width: 448px;
     height: 120px;
     resize: none;
@@ -125,7 +126,7 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input-box1 {
+.input-name {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -137,7 +138,7 @@
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
     }
 }
-.input-box2 {
+.input-phone {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -149,7 +150,7 @@
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
     }
 }
-.input-box3 {
+.input-email {
     display: flex;
     justify-content: flex-start;
     align-items: center;
