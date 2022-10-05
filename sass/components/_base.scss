@@ -31,16 +31,16 @@
 }
 .clients__box--style:focus,
 .clients__box--style:hover,
-.modal-input:hover,
-.modal-input:focus,
+.modal__input:hover,
+.modal__input:focus,
 .clients__box--icon:hover,
 .clients__box--icon:focus,
-.input-box1:hover .modal-input,
-.input-box1:focus .modal-input,
-.input-box2:hover .modal-input,
-.input-box2:focus .modal-input,
-.input-box3:hover .modal-input,
-.input-box3:focus .modal-input {
+.modal__input-name:hover .modal__input,
+.modal__input-name:focus .modal__input,
+.modal__input-phone:hover .modal__input,
+.modal__input-phone:focus .modal__input,
+.modal__input-email:hover .modal__input,
+.modal__input-email:focus .modal__input {
     border-color: var(--blue);
 }
 .clients__box--style:hover .clients__box--icon,

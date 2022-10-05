@@ -44,7 +44,7 @@
                         </li>
                     </ul>
                 </nav>
-                <div class="contacts">
+                <div class="contacts__container">
                     <a class="contacts__element" href="mailto:info@devstudio.com">
                         <svg class="contacts__element--icon-mail">
                             <use
@@ -68,64 +68,62 @@
                 </div>
             </div>
         </header>
-        <main class="body">
+        <main class="body__container">
             <section class="slider">
-                <div class="slider--background">
                     <div class="slider__container">
                         <h1 class="slider__container--title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
                         <button type="button" class="slider__container--button" data-modal-open>Zamów usługę</button>
-                    </div>
-                </div>    
+                    </div>   
             </section>
-            <section class="assets">
-                <ul class="cards-asset">
+            <section class="assets__container">
+                <ul class="assets__card">
                     <li>
-                        <svg class="cards-asset__icon">
+                        <svg class="assets__card--icon">
                             <use
                                 href="./images/icons.svg#icon-Group-1">
                             </use>
                         </svg>
-                        <h4 class="cards-asset__text">LOREM IPSUM</h4>
-                        <p class="cards-asset__description">
+                        <h4 class="assets__card--text">LOREM IPSUM</h4>
+                        <p class="assets__card--description">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada
                         </p>    
                     </li>
                     <li>
-                        <svg class="cards-asset__icon">
+                        <svg class="assets__card--icon">
                             <use
                                 href="./images/icons.svg#icon-Group-2">
                             </use>
                         </svg>
-                        <h4 class="cards-asset__text">LOREM IPSUM</h4>
-                        <p class="cards-asset__description">
+                        <h4 class="assets__card--text">LOREM IPSUM</h4>
+                        <p class="assets__card--description">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada
                         </p>
                     </li>
                     <li>
-                        <svg class="cards-asset__icon">
+                        <svg class="assets__card--icon">
                             <use
                                 href="./images/icons.svg#icon-Group-3">
                             </use>
                         </svg>
-                        <h4 class="cards-asset__text">LOREM IPSUM</h4>
-                        <p class="cards-asset__description">
+                        <h4 class="assets__card--text">LOREM IPSUM</h4>
+                        <p class="assets__card--description">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada
                         </p>
                     </li>
                     <li>
-                        <svg class="cards-asset__icon">
+                        <svg class="assets__card--icon">
                             <use
                                 href="./images/icons.svg#icon-Group-4">
                             </use>
                         </svg>
-                        <h4 class="cards-asset__text">LOREM IPSUM</h4>
-                        <p class="cards-asset__description">
+                        <h4 class="assets__card--text">LOREM IPSUM</h4>
+                        <p class="assets__card--description">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada
                         </p>
                     </li>
                 </ul>           
             </section>
-            <section class="about-us">
+            <section class="about-us__contaier">
                 <h2 class="about-us__title">Czym się zajmujemy</h2>
                 <ul class="about-us__box">
                     <li class="about-us__box">   
@@ -381,7 +379,7 @@
                 </div>    
             </section>
             <section>
-                <div class="clients">
+                <div class="clients__container">
                     <h2 class="clients--title">Nasi klienci</h2>
                 <ul class="clients__box">
                     <li>
@@ -516,7 +514,7 @@
             </div>
         </footer>
         <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
+            <div class="modal__container">
                 <button type="submit" class="close-btn" data-modal-close>
                     <svg class="close-btn__icon">
                         <use
@@ -527,39 +525,39 @@
                 <h6 class="modal__title">Zostaw swoje dane w formularzu poniżej</h6>
                 <form class="modal__form">
                     <label for="username">Imię
-                        <div class="input-name">
-                            <svg class="input-name__icon"
+                        <div class="modal__input-name">
+                            <svg class="modal__input-name--icon"
                             width="18px"
                             height="18px">
                                 <use
                                     href="./images/icons.svg#icon-person">
                                 </use>
                             </svg>
-                        <input class="modal-input" type="text" name="username" id="username"/>
+                        <input class="modal__input" type="text" name="username" id="username"/>
                         </div>
                     </label>
                     <label for="user_phone">Telefon
-                        <div class="input-phone">
-                            <svg class="input-phone__icon"
+                        <div class="modal__input-phone">
+                            <svg class="modal__input-phone--icon"
                             width="18px"
                             height="18px">
                                 <use
                                     href="./images/icons.svg#icon-phone-black">
                                 </use>
                             </svg>   
-                        <input class="modal-input" type="phone" name="phone" id="user_phone" />
+                        <input class="modal__input" type="phone" name="phone" id="user_phone" />
                         </div> 
                     </label>
                     <label for="user_email">Email
-                        <div class="input-email">
-                            <svg class="input-email__icon" 
+                        <div class="modal__input-email">
+                            <svg class="modal__input-email--icon" 
                             width="18px"
                             height="18px">
                                 <use
                                     href="./images/icons.svg#icon-email-black">
                                 </use>
                             </svg>  
-                        <input class="modal-input" type="email" name="email" id="user_email" />
+                        <input class="modal__input" type="email" name="email" id="user_email" />
                         </div>
                     </label>
                     <label> Komentarz

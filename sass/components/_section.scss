@@ -1,4 +1,4 @@
-.body {
+.body__container {
     color: var(--black);
     font-family: 'Roboto', 'Raleway' ,'Helvetica Neue', 'Verdana', 'Tahoma', sans-serif;
 }
@@ -21,7 +21,14 @@
 .slider {
     background-color: var(--dark-grey);
 }
-.slider--background {
+.slider__container {
+    max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 200px 0;
     background-image:
         linear-gradient(
         0deg,
@@ -33,16 +40,6 @@
     margin: 0 auto;
     background-repeat: no-repeat;
     background-position: center;
-}
-.slider__container {
-    @extend .container;
-    max-width: 1600px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    padding: 200px 0;
 }
 .slider__container--title {
     font-family: 'Roboto', sans-serif;
@@ -57,14 +54,16 @@
     text-transform: uppercase;
     margin: 0;
 }
-.assets {
+.assets__container {
     @extend .container;
     padding: 94px 0 0 0;
 }
 .about-us {
+
+    &__contaier {
     @extend .container;
     padding: 94px 0 0 0;
-
+    }
     &__title {
         font-weight: 700;
         font-size: 36px;
@@ -159,7 +158,7 @@
     margin: 0;
 }
 }
-.portfolio {
+.portfolio__container {
     @extend .container;
     padding: 94px 0;
 }
@@ -184,10 +183,12 @@
     margin: 0 0 50px 0;
 }
 .clients {
+
+    &__container {
     @extend .container;
     height: 372px;
     padding: 94px 0 0 0;
-    
+    }
     &__box{
     display: flex;
     justify-content: space-between;
