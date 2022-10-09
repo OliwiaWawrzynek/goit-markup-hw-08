@@ -1,8 +1,18 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
 .container {
+    /*min-width: 500px;*/
     min-width: 320px;
+    max-width: 767px;
     margin: 0 auto;
 }
+.body__container {
+    min-width: 320px;
+}
 .header {
+    min-width: 320px;
+    max-width: 767px;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: var(--light-grey);
@@ -33,7 +43,6 @@
         url("../images/background-image.jpg");
     background-position: center;
     background-size: cover;
-    height: 400px;
     margin: 0 auto;
     background-repeat: no-repeat;
 }
@@ -43,7 +52,8 @@
     font-size: 26px;
     line-height: 1.36;
     color:  var(--white);
-    width: 696px;
+    /*width: 696px;*/
+    width: 365px;
     height: 120px;
     text-align: center;
     letter-spacing: 0.06em;
@@ -61,6 +71,7 @@
     }
 }
 .team {
+    min-width: 320px;
     background-color: var(--white-grey);
 
     &__container {
@@ -186,7 +197,8 @@
 }
 @media (min-width: 1200px) {
     .container {
-        width: 1200px;
+        min-width: 1200px;
+        max-width: 1200px;
     }
     .about-us {
 
@@ -235,11 +247,13 @@
         }
     }
     .slider__container {
+    background-color: var(--dark-grey);
     max-width: 1600px;
     height: 600px;
     }
     .slider__container--title {
     font-size: 44px;
+    width: 696px;
     }
     .clients {
 

@@ -54,6 +54,8 @@
     top: 0;
     left: 0;
     width: 100vw;
+    height: 500px;
+    gap: 20px;
     padding: 48px 40px;
     background-color: var(--white);
     z-index: 999;
@@ -72,7 +74,7 @@
     gap: 32px;
 
     &__link {
-    font-size: 40px;
+    font-size: 28px;
     }
     list-style: none;
     padding: 0;
@@ -90,7 +92,7 @@
         gap: 30px;
         align-items:flex-start;
         justify-content: space-between;
-        margin: 306px 0 64px 0;
+        margin: 60px 0 0 0;
         }
         
     &__element {
@@ -100,7 +102,7 @@
     justify-content: space-between;
     font-family: 'Roboto', sans-serif;
     color: var(--black);
-    font-size: 40px;
+    font-size: 28px;
     font-weight: 500;
     line-height: 1.14;
     text-decoration: none; 
@@ -117,7 +119,7 @@
 
     &__link {
         @extend .navigation__link;
-        font-size: 18px;
+        font-size: 14px;
     }
 }
 @media (min-width: 768px) {

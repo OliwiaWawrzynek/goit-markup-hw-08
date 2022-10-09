@@ -362,6 +362,7 @@
   }
 }
 .footer {
+  min-width: 320px;
   background-color: var(--dark-grey);
 }
 
@@ -725,11 +726,11 @@
 
 .backdrop {
   background-color: var(--modal-background);
-  position: fixed;
+  /*position: fixed;
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
+  height: 100%;*/
   opacity: 100%;
   -webkit-transition: opacity 200ms linear, visibility 500ms linear;
   transition: opacity 200ms linear, visibility 500ms linear;
@@ -737,11 +738,13 @@
 
 .modal__container {
   position: absolute;
+  margin-top: 110px;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 460px;
+  /*width: 460px;*/
+  width: 320px;
   height: 609px;
   /*width: 528px;
   height: 581px;*/
@@ -811,7 +814,7 @@
 
 .feedback-box {
   /*width: 448px;*/
-  width: 370px;
+  width: 240px;
   height: 120px;
   resize: none;
   padding: 12px 16px;
@@ -875,10 +878,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 5px;
+  gap: 1px;
   font-family: Roboto;
   /*font-size: 14px;*/
-  font-size: 12px;
+  font-size: 8px;
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -1008,12 +1011,35 @@ input:checked + .checkbox__icon {
   cursor: pointer;
 }
 
+@media (min-width: 1200px) {
+  .backdrop {
+    background-color: var(--modal-background);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+*, ::before, ::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .container, .clients__container, .footer__container, .portfolio__container, .team__container, .assets__container, .header__container {
+  /*min-width: 500px;*/
   min-width: 320px;
+  max-width: 767px;
   margin: 0 auto;
 }
 
+.body__container {
+  min-width: 320px;
+}
+
 .header {
+  min-width: 320px;
+  max-width: 767px;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: var(--light-grey);
@@ -1056,7 +1082,6 @@ input:checked + .checkbox__icon {
   background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%), url("../images/background-image.jpg");
   background-position: center;
   background-size: cover;
-  height: 400px;
   margin: 0 auto;
   background-repeat: no-repeat;
 }
@@ -1067,7 +1092,8 @@ input:checked + .checkbox__icon {
   font-size: 26px;
   line-height: 1.36;
   color: var(--white);
-  width: 696px;
+  /*width: 696px;*/
+  width: 365px;
   height: 120px;
   text-align: center;
   letter-spacing: 0.06em;
@@ -1084,6 +1110,7 @@ input:checked + .checkbox__icon {
 }
 
 .team {
+  min-width: 320px;
   background-color: var(--white-grey);
 }
 .team__container {
@@ -1239,7 +1266,8 @@ input:checked + .checkbox__icon {
 }
 @media (min-width: 1200px) {
   .container, .header__container, .assets__container, .team__container, .portfolio__container, .footer__container, .clients__container {
-    width: 1200px;
+    min-width: 1200px;
+    max-width: 1200px;
   }
   .about-us__contaier {
     display: block;
@@ -1295,11 +1323,13 @@ input:checked + .checkbox__icon {
     color: var(--white);
   }
   .slider__container {
+    background-color: var(--dark-grey);
     max-width: 1600px;
     height: 600px;
   }
   .slider__container--title {
     font-size: 44px;
+    width: 696px;
   }
   .clients__container {
     width: 1200px;
@@ -1472,6 +1502,8 @@ input:checked + .checkbox__icon {
   top: 0;
   left: 0;
   width: 100vw;
+  height: 500px;
+  gap: 20px;
   padding: 48px 40px;
   background-color: var(--white);
   z-index: 999;
@@ -1507,7 +1539,7 @@ input:checked + .checkbox__icon {
   padding: 0;
 }
 .mobile-navigation__link {
-  font-size: 40px;
+  font-size: 28px;
 }
 .mobile-navigation__link--active-link {
   color: var(--blue);
@@ -1529,7 +1561,7 @@ input:checked + .checkbox__icon {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 306px 0 64px 0;
+  margin: 60px 0 0 0;
 }
 .mobile-contacts__element {
   display: -webkit-box;
@@ -1544,7 +1576,7 @@ input:checked + .checkbox__icon {
           justify-content: space-between;
   font-family: "Roboto", sans-serif;
   color: var(--black);
-  font-size: 40px;
+  font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
   text-decoration: none;
@@ -1568,7 +1600,7 @@ input:checked + .checkbox__icon {
           justify-content: center;
 }
 .mobile-social-media__link {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 @media (min-width: 768px) {
