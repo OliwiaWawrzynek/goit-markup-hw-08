@@ -2,23 +2,28 @@
     font-family: 'Raleway', sans-serif;
     color: var(--blue);
     font-weight: 700;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 1.19;
     text-decoration: none;
-    margin: 0;
+    margin: 0 0 0 15px;
+}
+.header__logo--color-black {
+    color: var(--black);
 }
 .footer__logo {
     font-family: 'Raleway', sans-serif;
     color: var(--blue);
     font-weight: 700;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 1.19;
     text-decoration: none;
     margin: 0;
 }
-.header__logo--color-black {
-    color: var(--black);
-}
 .footer__logo--color-white {
     color: var(--white);
 }
+/*@media (min-width: 768px) {
+
+}
+@media (min-width: 1200px) {
+    font-size: 26px;*/

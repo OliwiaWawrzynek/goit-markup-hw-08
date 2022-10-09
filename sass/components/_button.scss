@@ -1,3 +1,4 @@
+
 .slider__container--button {
     font-family: 'Roboto', sans-serif;
     color: var(--white);
@@ -74,4 +75,8 @@
     @extend .button;
     width: 200px;
     height: 50px;
+}
+    .header__mobile--icon-mobile-menu {
+    width: 24px;
+	height: 16px;
 }

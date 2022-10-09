@@ -1,3 +1,4 @@
+.mobile-navigation__link,
 .navigation__link,
 .footer__address--link {
     font-family: 'Roboto', sans-serif;
@@ -9,12 +10,16 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
+.mobile-navigation__link:focus,
+.mobile-navigation__link:hover,
 .navigation__link:focus,
 .navigation__link:hover,
 .link:focus, 
 .link:hover,
 .footer__address--link:focus, 
 .footer__address--link:hover,
+.mobile-contacts__element:hover,
+.mobile-contacts__element:focus,
 .contacts__element:focus,
 .contacts__element:hover {
     color: var(--blue);

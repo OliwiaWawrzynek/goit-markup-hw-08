@@ -2,11 +2,12 @@
 
     &__card {
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding: 60px 15px 60px 15px;
     }
 
     &__card--description {
@@ -15,6 +16,7 @@
     color: var(--grey);
     margin: 0;
     letter-spacing: 0.03em;
+    text-align: left;
     }
 
     &__card--text {
@@ -25,11 +27,39 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     padding: 0;
+    text-align: center;
     }
 
     &__card--icon {
         margin-bottom: 30px;
-        width: 270px;
+        width: 450px;
         height: 120px;
+        border-radius: 4px;
+        margin-bottom: 30px;
+        height: 120px;
+        width: 100%;
+        background-color: var(--white-grey);
+    }
+}
+
+@media (min-width: 768px) {
+    .assets__card--icon {
+        width: 354px;
+        
+        flex-basis: calc((100% - 30px) / 2);    
+    }
+    .assets__card--text {
+        text-align: left;
+    }
+    .assets__card--description {
+        width: 354px;
+    }
+}
+@media (min-width: 1200px) {
+    .assets__card--icon {
+        width: 270px;
+    }
+    .assets__card--description {
+        width: 270px;
     }
 }
