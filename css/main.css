@@ -430,7 +430,6 @@
   margin-bottom: 60px;
 }
 .newsletter__email--input {
-  width: 450px;
   height: 50px;
   border-radius: 4px;
   border: 1px solid var(--email-input);
@@ -1093,7 +1092,7 @@ input:checked + .checkbox__icon {
   line-height: 1.36;
   color: var(--white);
   /*width: 696px;*/
-  width: 365px;
+  /*width: 365px;*/
   height: 120px;
   text-align: center;
   letter-spacing: 0.06em;
